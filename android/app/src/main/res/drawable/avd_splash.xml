@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_splash_logo">
+    <target
+        android:name="nib_group"
+        android:animation="@animator/nib_scale" />
+    <target
+        android:name="wave1"
+        android:animation="@animator/wave1_anim" />
+    <target
+        android:name="wave2"
+        android:animation="@animator/wave2_anim" />
+    <target
+        android:name="wave3"
+        android:animation="@animator/wave3_anim" />
+</animated-vector>

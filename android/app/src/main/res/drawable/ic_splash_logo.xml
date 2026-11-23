@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <group
+        android:name="nib_group"
+        android:pivotX="64"
+        android:pivotY="58">
+        
+        <!-- Nib Body (Terracotta #C25E3E) -->
+        <path
+            android:name="nib_body"
+            android:fillColor="#C25E3E"
+            android:pathData="M64,22 L50,42 C47,50 44,60 44,68 L44,88 L84,88 L84,68 C84,60 81,50 78,42 Z" />
+
+        <!-- Base Trim Bar (#8C3820) -->
+        <path
+            android:name="base_bar"
+            android:fillColor="#8C3820"
+            android:pathData="M45.5,87 L82.5,87 A3.5,3.5 0 0,1 86,90.5 L86,90.5 A3.5,3.5 0 0,1 82.5,94 L45.5,94 A3.5,3.5 0 0,1 42,90.5 L42,90.5 A3.5,3.5 0 0,1 45.5,87 Z" />
+
+        <!-- Center Slit (#FAF7F2 Warm Cream) -->
+        <path
+            android:name="nib_slit"
+            android:strokeColor="#FAF7F2"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:pathData="M64,22 L64,58" />
+
+        <!-- Breather Hole (#FAF7F2 Warm Cream) -->
+        <path
+            android:name="nib_hole"
+            android:fillColor="#FAF7F2"
+            android:pathData="M64,54 A4,4 0 1,1 63.99,54 Z" />
+    </group>
+
+    <!-- Soundwave 1 (Inner Arc) -->
+    <path
+        android:name="wave1"
+        android:strokeColor="#C25E3E"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.0"
+        android:trimPathEnd="0.0"
+        android:pathData="M75.6,41.8 A20,20 0 0,1 83.4,62.9" />
+
+    <!-- Soundwave 2 (Middle Arc) -->
+    <path
+        android:name="wave2"
+        android:strokeColor="#C25E3E"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.0"
+        android:trimPathEnd="0.0"
+        android:pathData="M82.6,32.1 A32,32 0 0,1 95.0,65.9" />
+
+    <!-- Soundwave 3 (Outer Arc) -->
+    <path
+        android:name="wave3"
+        android:strokeColor="#C25E3E"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.0"
+        android:trimPathEnd="0.0"
+        android:pathData="M90.7,20.7 A46,46 0 0,1 108.6,69.4" />
+
+</vector>
